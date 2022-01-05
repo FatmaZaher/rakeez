@@ -76,13 +76,16 @@ button:not(:disabled) {
   }
 }
 /**********************/
+.other-question{
+  margin-bottom: 100px;
+
+}
 .other-question .other-content {
   color: var(--white-color);
   text-align: center;
   padding: 50px;
   height: 300px;
   background-color: var(--text-color);
-  margin-bottom: 100px;
 }
 .other-question .other-content p {
   padding: 0 280px;
@@ -107,3 +110,5 @@ button:not(:disabled) {
     font-size: 12px;
   }
 }
+/****************************/
+

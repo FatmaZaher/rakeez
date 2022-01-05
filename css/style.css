@@ -31,6 +31,7 @@ body {
   --gray-color: #8a9ab1;
   --hover-color: #1e59d5;
   --footer-color: #172234;
+  --back-color: #eff3f7;
   --border-radius: 5px;
   --padding: 9px 0;
 }
@@ -52,8 +53,10 @@ a {
   font-weight: 600;
   outline: none;
 }
+h3,
 h5,
-h4 {
+h4,
+h6 {
   font-weight: 700;
 }
 .arrow-up {
@@ -69,7 +72,7 @@ h4 {
 }
 .arrow-up svg {
   fill: none !important;
-  stroke: #fff !important;
+  stroke: var(--white-color);
   stroke-linecap: round !important;
   stroke-linejoin: round !important;
   stroke-width: 2px !important;
@@ -490,6 +493,7 @@ h4 {
   width: 25px;
   height: 25px;
   fill: var(--white-color);
+  stroke: var(--white-color);
 }
 .service .service-text p:first-of-type {
   font-weight: 600;
@@ -536,6 +540,7 @@ h4 {
 .about .about-text .about-text-list .list-icon svg {
   width: 18px;
   height: 18px;
+  fill: var(--orange-color);
 }
 .about .about-img {
   position: relative;

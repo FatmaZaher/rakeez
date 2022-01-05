@@ -15,7 +15,7 @@
 .header-page .header-page-content .breadcrumb a {
   color: var(--gray-color);
 }
-.navbar .arrow-up{
+.navbar .arrow-up {
   top: 20px;
 }
 /*********************************************/
@@ -73,5 +73,37 @@ button:not(:disabled) {
 @media (max-width: 767px) {
   .page-content {
     padding: 50px 0;
+  }
+}
+/**********************/
+.other-question .other-content {
+  color: var(--white-color);
+  text-align: center;
+  padding: 50px;
+  height: 300px;
+  background-color: var(--text-color);
+  margin-bottom: 100px;
+}
+.other-question .other-content p {
+  padding: 0 280px;
+}
+.other-question .other-content .other-button {
+  width: 190px;
+  border: 1px solid var(--white-color);
+  background-color: transparent;
+  color: var(--white-color) !important;
+  padding: 9px 0;
+  border-radius: 5px;
+  outline: none;
+  margin: 10px;
+  font-size: 13px;
+}
+@media (max-width: 767px) {
+  .other-question .other-content {
+    padding: 33px;
+  }
+  .other-question .other-content p {
+    padding: 0;
+    font-size: 12px;
   }
 }
